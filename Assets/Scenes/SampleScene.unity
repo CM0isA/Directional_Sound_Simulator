@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44344097, g: 0.49272573, b: 0.5723446, a: 1}
+  m_IndirectSpecularColor: {r: 0.443441, g: 0.49272573, b: 0.5723446, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -437,7 +437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507605097}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.017, y: 5, z: -0.015}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
@@ -726,6 +726,11 @@ Transform:
   m_Father: {fileID: 1454914358}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 58.77, y: -77.337, z: -8.824}
+--- !u!1 &809385057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65266dbf632f83e4ba013a99f02d38da, type: 3}
+  m_PrefabInstance: {fileID: 1681409900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &814487378
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,7 +831,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896408925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.604267, y: 5.5998073, z: 1.3664933}
+  m_LocalPosition: {x: -0.03, y: -4.57, z: 1.3664933}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1364114653}
@@ -1325,6 +1330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1177262148}
   - component: {fileID: 1177262147}
+  - component: {fileID: 1177262149}
   m_Layer: 0
   m_Name: SourcesManager
   m_TagString: Untagged
@@ -1347,6 +1353,7 @@ MonoBehaviour:
   sourcesNumber: 0
   audioSources: []
   sourcePrefab: {fileID: 3200593463204417122, guid: 4a823e2feb8a5d14491af12f334da517, type: 3}
+  activeId: 0
 --- !u!4 &1177262148
 Transform:
   m_ObjectHideFlags: 0
@@ -1361,6 +1368,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1177262149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177262146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b7e12e5a6b3a64186024b6e190518c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 809385057}
 --- !u!1 &1288124474
 GameObject:
   m_ObjectHideFlags: 0

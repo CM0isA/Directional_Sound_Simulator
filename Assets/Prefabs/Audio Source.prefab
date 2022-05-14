@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3200593463204417123}
   - component: {fileID: 3200593463204417135}
   - component: {fileID: 2570117204696209413}
+  - component: {fileID: 114625266317371233}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3200593463204417122}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.57, y: 3.4, z: -4.11}
+  m_LocalRotation: {x: 0.000032405267, y: 0.0095309615, z: -0.000028592885, w: 0.9999546}
+  m_LocalPosition: {x: 5, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -206,5 +207,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2668e7a6294490c4c9b934d6e3fda9ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
-  prop: {fileID: 0}
+  id: 1
+  azimuth: 0
+  elevation: 0
+--- !u!54 &114625266317371233
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3200593463204417122}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 3

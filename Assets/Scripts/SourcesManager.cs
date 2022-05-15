@@ -16,6 +16,7 @@ public class SourcesManager : MonoBehaviour
     public static SourcesManager instance;
     public int activeId = 0;
     public List<GameObject> panels;
+    public GameObject idPanel;
 
     private void Awake()
     {
@@ -94,6 +95,10 @@ public class SourcesManager : MonoBehaviour
 
             text.text = "ID: " + source.id + " \nAzimuth: " + source.azimuth + " \nElevation: " + source.elevation;
         }
+
+        Text active = idPanel.GetComponentInChildren<Text>();
+        active.text = "Active ID: " + activeId;
+
     }
 
     public void AddAudioSource(int index)
